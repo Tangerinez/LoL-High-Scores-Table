@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Slabo+27px&display=swap");
+
+.nav-container {
+  color: white;
+  text-align: center;
+  background: #17172e;
+  border-bottom: 1px solid white;
+  font-family: "Slabo";
+}
+
+.nav-categories {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-container {
+  border-right: 1px solid grey;
+  padding: 1em 1.5em 1em 1.5em;
+  cursor: pointer;
+}
+
+.logo-container:hover {
+  background: #31334a;
+}
+
+#league-logo {
+  width: 30px;
+  cursor: pointer;
+}
+
+.champions {
+  padding: 0 1em 0 1em;
+  cursor: pointer;
+}
+
+.champions:hover {
+  color: rgb(224, 222, 222);
+}

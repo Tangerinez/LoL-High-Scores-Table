@@ -1,0 +1,21 @@
+.leaderboards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 1px solid grey;
+  cursor: pointer;
+}
+
+.leaderboards-container:hover {
+  background: #31334a;
+}
+
+.leaderboards {
+  padding: 0 1em 0 1em;
+  cursor: pointer;
+  padding: 1em 1.5em 1em 1.5em;
+}
+
+.leaderboards:hover {
+  color: rgb(224, 222, 222);
+}

@@ -1,0 +1,17 @@
+.champions-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-right: 1px solid grey;
+  cursor: pointer;
+}
+
+.champions-container:hover {
+  background: #31334a;
+}
+
+.champions {
+  padding: 0 1em 0 1em;
+  cursor: pointer;
+  padding: 1em 1.5em 1em 1.5em;
+}
