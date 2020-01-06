@@ -15,7 +15,7 @@
 
 .logo-container {
   border-right: $categoryBorder;
-  padding: $categoryPadding;
+  padding: 0.6em 1em;
   cursor: pointer;
 }
 
@@ -24,6 +24,16 @@
 }
 
 #league-logo {
-  width: 30px;
+  width: 25px;
   cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+  .logo-container {
+    padding: 1em 1.5em 1em 1.5em;
+  }
+
+  #league-logo {
+    width: 30px;
+  }
 }
