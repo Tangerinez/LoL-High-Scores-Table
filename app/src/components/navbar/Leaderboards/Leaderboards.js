@@ -1,5 +1,5 @@
 import React from "react";
-import "./Leaderboards.css";
+import "./Leaderboards.scss";
 
 function Leaderboards() {
   return (

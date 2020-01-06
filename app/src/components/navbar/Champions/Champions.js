@@ -1,5 +1,5 @@
 import React from "react";
-import "./Champions.css";
+import "./Champions.scss";
 
 function Champions() {
   return (

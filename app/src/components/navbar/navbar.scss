@@ -1,0 +1,29 @@
+@import "../../variables.scss";
+
+.nav-container {
+  color: $primaryFontColor;
+  text-align: center;
+  background: $navBackgroundColor;
+  border-bottom: 1px solid white;
+  font-family: $primaryFont;
+}
+
+.nav-categories {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-container {
+  border-right: $categoryBorder;
+  padding: $categoryPadding;
+  cursor: pointer;
+}
+
+.logo-container:hover {
+  background: $navBackgroundHover;
+}
+
+#league-logo {
+  width: 30px;
+  cursor: pointer;
+}

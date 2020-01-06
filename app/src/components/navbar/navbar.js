@@ -2,7 +2,7 @@ import React from "react";
 import Home from "./Home/Home";
 import Leaderboards from "./Leaderboards/Leaderboards";
 import Champions from "./Champions/Champions";
-import "./navbar.css";
+import "./navbar.scss";
 
 function Navbar() {
   return (
