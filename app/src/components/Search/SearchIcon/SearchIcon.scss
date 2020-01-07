@@ -1,0 +1,13 @@
+@import "../../../variables.scss";
+
+.search-icon {
+  width: 32px;
+  padding: 6px 8px 2px 8px;
+  background: $navBackgroundColor;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  cursor: pointer;
+}
+
+@media only screen and (min-width: 768px) {
+}

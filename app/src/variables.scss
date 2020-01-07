@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Slabo+27px&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Bitter&display=swap");
 
 // Primary
 $primaryFontColor: white;
@@ -8,3 +9,9 @@ $primaryFont: "Slabo";
 $navBackgroundColor: #17172e;
 $navBackgroundHover: #31334a;
 $categoryBorder: 1px solid grey;
+
+// Home Container
+$homeBackgroundColor: #343449;
+
+// Search Bar
+$searchFont: "Bitter", serif;

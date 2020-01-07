@@ -1,0 +1,9 @@
+@import "../../variables.scss";
+
+.body-container {
+  background: $homeBackgroundColor;
+  color: $primaryFontColor;
+  display: flex;
+  padding: 3em;
+  justify-content: center;
+}

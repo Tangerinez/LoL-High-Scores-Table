@@ -1,0 +1,30 @@
+@import "../../variables.scss";
+
+.search-bar {
+  display: flex;
+  align-items: row;
+  width: 240px;
+}
+
+.search-bar-league-logo {
+  width: 20px;
+  padding: 6px 8px;
+  background: $navBackgroundColor;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.input-field {
+  width: 100%;
+  border-width: 0;
+  padding: 0 4px;
+  font-weight: bold;
+  font-family: $searchFont;
+}
+
+.input-field::placeholder {
+  color: rgb(119, 115, 115);
+}
+
+@media only screen and (min-width: 768px) {
+}
