@@ -9,5 +9,12 @@
   cursor: pointer;
 }
 
+.search-icon:hover {
+  background: $searchButtonHover;
+}
+
 @media only screen and (min-width: 768px) {
+  .search-icon {
+    width: 40px;
+  }
 }
